@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
         <-- font awesome and styles -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,5 +13,34 @@
         
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="header">Star Fortune</h1>
+            <div class="quote">
+                "The universe is a grand, wondrous place, filled with mysteries, secrets, and wonder. But most importantly, it is a place where we can learn and grow."
+                <br>
+                - Dr. Seuss
+            </div>
+
+            <div class="star-box">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+            </div>
+            
+            <div class="btn-container">
+                <button class="btn" onclick="generateFortune()">Generate Fortune</button>
+            </div> 
+            <div id="fortune-result" class="fortune-result"></div>
+
+            <div class="footer">
+                &copy; 2025 Star Fortune. All rights reserved.
+            </div>
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
 
 </html>
