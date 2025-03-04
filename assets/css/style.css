@@ -1,22 +1,23 @@
 
-.honk-<uniquifier> {
+body {
     font-family: "Honk", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wght" 400;
-    font-size: 1em;
-    line-height: 1.5;
-    letter-spacing: 0.01em;
-  }
-
-body {
-    background-color: white;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
 }
 
-.btn .container {
-    display: flex;
-    .center {
-        text-align: center;
-        border: 3px solid plum;
-      }
+.quote-container {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn .container .header {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid plum;
+}
