@@ -1,43 +1,5 @@
 /* Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-/* CSS Variables */
-:root {
-    --primary-font: "Open-sans", sans-serif;
-    --secondary-font: "Montserrat", Sans;
-    --primary-color: #ff9100b0;
-    /* yellow orange */
-
-    /* --secondary-color: ;*/
-    --secondary-color: #a878a8d5;
-    --highlight-color: #eec5c2;
-    --highlight-color-light: #eb526c;
-
-
-}
-
-body {
-    background-image: href="https://github.com/jammy-8/Star-Fortune/blob/2451b28c8e6444ce24e54629f028d77011889555/assets/images/BG-IMG-star-fortune/android-chrome-512x512.png";
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-  }
-
-body {
-    font-family: "Honk", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "MORF" 15,
-    "SHLN" 50;
-}
-
-
-
-span {
-    text-transform: capitalize;
-}
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Sigmar&display=swap');
 
 .quote-container {
     font-family: "Sigmar", serif;
@@ -45,9 +7,98 @@ span {
     font-style: normal;
 }
 
+
+body {
+    font-family: "Honk", serif;;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    font-stretch: normal;
+}
+
+
+picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+}
+
+span {
+    text-transform: capitalize;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container .footer {
+        text-align: center;
+        border: 3px solid violet;
+}
+
+
 .btn .container .header {
     margin: auto;
     width: 50%;
     padding: 10px;
     border: 3px solid plum;
+}
+
+/* Media Query */
+/* Small Screens */
+@media screen and (min-width: 300px) {
+    picture .img-center {
+
+        width: 100%;
+        max-height: 165px;
+    }
+
+    .img-center .btn {
+        justify-content: center;
+    }
+
+    /* Medium Screens */
+}
+
+@media screen and (min-width: 500px) {
+    picture .img-center {
+
+        width: 100%;
+        max-height: 285px;
+    }
+
+    /* Large Screens */
+}
+
+@media screen and (min-width: 800px) {
+    picture .img-center {
+
+        width: 100%;
+        max-height: 390px;
+    }
+}
+
+/* Extra Large Screens makes transition to 1200px smoother */
+@media screen and (min-width: 1140px) {
+
+    picture .img-center {
+
+        width: 940px;
+        max-height: 530px;
+    }
+}
+
+/* Extra Large Screens */
+@media screen and (min-width: 1200px) {
+
+    picture .img-center {
+        width: 580px;
+        max-height: 285px;
+    }
 }
