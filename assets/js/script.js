@@ -18,6 +18,10 @@ playButton.addEventListener('click', (e) => {
     addTextToSpan(yourChoice, selected[0].id)
     const randChoice = generateComputerChoice()
     showResult(selected[0].id, randChoice)
+    e.target.disabled = true;
+    choices.forEach((b) => {
+        b.checked = false;
+    })
 })
 
 function addTextToSpan(spanControl, text) {
