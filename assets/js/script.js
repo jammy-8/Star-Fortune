@@ -35,32 +35,20 @@ function generateComputerChoice() {
     return computerChoice
 }
 
-function showResult(userChoice, computerChoice) {
+function showResult(userChoice, computerChoice) {   
+    let result
     if (userChoice === computerChoice) {
-        addTextToSpan(resultDisplay, 'tied')
+        result = 'The Stars shines bright for you!'
+    } else if ((userChoice === 'fire' && computerChoice === 'water') ||
+        (userChoice === 'water' && computerChoice === 'air') ||
+        (userChoice === 'air' && computerChoice === 'earth') ||
+        (userChoice === 'earth' && computerChoice === 'fire')) {
+        result = 'Universe Conspired!'
+    } else {
+        result = 'Incompatible!'
     }
-    else if (userChoice === 'rock') {
-        if (computerChoice === 'paper') {
-            addTextToSpan(resultDisplay, 'you lost')
-        }
-        else if (computerChoice == 'scissors') {
-            addTextToSpan(resultDisplay, 'you won')
-        }
-    }
-    else if (userChoice === 'paper') {
-        if (computerChoice === 'scissors') {
-            addTextToSpan(resultDisplay, 'you lost')
-        }
-        else if (computerChoice == 'rock') {
-            addTextToSpan(resultDisplay, 'you won')
-        }
-    }
-    else if (userChoice === 'scissors') {
-        if (computerChoice === 'rock') {
-            addTextToSpan(resultDisplay, 'you lost')
-        }
-        else if (computerChoice == 'paper') {
-            addTextToSpan(resultDisplay, 'you won')
-        }
-    }
+    addTextToSpan(resultDisplay, result)
 }
+
+
+
