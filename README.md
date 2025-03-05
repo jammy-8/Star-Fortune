@@ -5,7 +5,7 @@ Star fortune contains a fun fortune guessing game correlated to elemental signs 
 Nowadays where everything is online, including dating, it is an easy access to those who want to look for signs and who value the correlation of astronomy in love and destiny.
 
 
-![Responsice Mockup] (assets/images/READ-ME-images/SS desktop page.jpg)
+![Front] (assets/images/READ-ME-images/front.jpg)
 
 ## Features 
 
@@ -22,7 +22,7 @@ A submit button shall be clicked which the will trigger a function showing wheth
 
   - Featured at the top of the page, the Star Fortune heading is colorful and presents a perfect impression for an audience in first glance. Upon viewing the page, the user will be able to see the name of the game.
 
-![Logo] (assets/images/READ-ME-images/SS desktop page.jpg)
+![Heading] (assets/images/READ-ME-images/front.jpg)
 
 - __The Game Area__
 
@@ -30,7 +30,7 @@ A submit button shall be clicked which the will trigger a function showing wheth
   - 
   - The user will be able to select the type element they want to find a match with. 
 
-![Game](assets/images/READ-ME-images/element options.jpg)
+![Game](assets/images/READ-ME-images/elementoptions.jpg)
 
 - __Random Element Picker__
 
@@ -43,7 +43,7 @@ A submit button shall be clicked which the will trigger a function showing wheth
 
   - This section will allow the user to see exactly whether they are compatible, incompatible, or the stars have perfectly aligned for them. 
 
-![score](assets/images/READ-ME-images\results.png)
+![score](assets/images/READ-ME-images/results.png)
 
 
 
