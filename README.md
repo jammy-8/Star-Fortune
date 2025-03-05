@@ -1,83 +1,76 @@
 # Star Fortune
 
-Star fortune contains a fun fortune guessing game correlated to elemental signs of a person. The game targets players
+Star fortune contains a fun fortune guessing game correlated to elemental signs of a person. The game targets players who are wanting to know whether their partner or date share a compatible elemental sign.
 
-For example, Love Maths is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers. 
+Nowadays where everything is online, including dating, it is an easy access to those who want to look for signs and who value the correlation of astronomy in love and destiny.
 
-![Responsice Mockup](media/love_maths_mockup.png)
+
+![Responsice Mockup] (assets/images/READ-ME-images/SS desktop page.jpg)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The projects has a title that give the audience the context of the game.
+
+Underneath is a photo of the four elemental characters. Below the image shows options on which element you think you are which will be matched to a random element.
+
+A submit button shall be clicked which the will trigger a function showing whether the signs are compatible or not.
+
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+- __Heading__
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - Featured at the top of the page, the Star Fortune heading is colorful and presents a perfect impression for an audience in first glance. Upon viewing the page, the user will be able to see the name of the game.
 
-![Logo](media/love_maths_logo.png)
+![Logo] (assets/images/READ-ME-images/SS desktop page.jpg)
 
 - __The Game Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+  - This section will allow the user to play the maths game. The user will be able to easily see icons optionas of elements which are water,air,fire and earth with emojis as it follows the trend.
+  - 
+  - The user will be able to select the type element they want to find a match with. 
 
-![Game](media/love_maths_icons.png)
+![Game](assets/images/READ-ME-images/element options.jpg)
 
-- __The Question section__
+- __Random Element Picker__
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+  - The game will then select a random element which will show as the probable element of the gamer's partner or current date.
+  - The user will be able to submit their answer and a compatibility check will make it known to the user if they are compatible or not with the person. 
 
-![Question](media/love_maths_question.png)
+![Question](assets/images/READ-ME-images/compatibility.jpg)
 
-- __The Score Area__
+- __The Compatibility Area__
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+  - This section will allow the user to see exactly whether they are compatible, incompatible, or the stars have perfectly aligned for them. 
 
-![score](media/love_maths_answer.png)
+![score](assets/images/READ-ME-images\results.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The website have been tested on different devices such as phone, ipad, desktop and notebooks.
+The sizes vary and adjusts as per the device and the operating system.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    - No errors were returned when passing through the official [W3C validator](assets/images/READ-ME-images/html validator.png)
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - No errors were found when passing through the official [(Jigsaw) validator](assets/images/READ-ME-images/css validator.png)
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
       - The following metrics were returned: 
-      - There are 11 functions in this file.
-      - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+      - There are 8 functions in this file.
+      - Function with the largest signature take 2 arguments, while the median is 1.
+      - Largest function has 7 statements in it, while the median is 1.
+      - The most complex function has a cyclomatic complexity value of 10 while the median is 1.
 
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
