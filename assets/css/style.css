@@ -5,6 +5,37 @@
     font-family: "Sigmar", serif;
     font-weight: 400;
     font-style: normal;
+    font-color: lightyellow;
+}
+
+.glitter-background {
+
+    background: linear-gradient(to right, transparent 50%, silver 50%), 
+
+                linear-gradient(to right, transparent 50%, silver 50%);
+
+    background-size: 20px 100%; 
+
+    background-position: 0 0, 10px 0;
+
+    animation: shimmer 1s linear infinite;
+
+}
+
+@keyframes shimmer {
+
+    0% {
+
+        background-position: 0 0;
+
+    }
+
+    100% {
+
+        background-position: 10px 0;
+
+    }
+
 }
 
 
