@@ -22,7 +22,8 @@
         <!-- HEADER w IMG -->
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-              <h1><img class="logo" src="assets\images\LOGO-star-fortune\favicon-32x32.png" alt="four elements logo">STAR
+              <img class="logo" src="assets\images\LOGO-star-fortune\favicon-32x32.png" alt="four elements logo">
+              <h1 style="font-size:10vw;" class="align-center">STAR
               FORTUNE STAR!</h1>
             </a>
             </div>
@@ -35,35 +36,39 @@
             </picture>
         </div>
     
-        <h1 class="align-center">Find out which element matches your energy!</h1>
-        
-        <h2><p>Pick Your Element:</p></h2>
+        <h1 class="align-center" style="font-size:5vw;">Find out which element matches your energy!</h1>
+        <br>
+        <h2><p class="quote-container">Pick Your Element:</p></h2>
         <h1><span id="user-choice"></span></h1>
+        <br>
 
-        <h2><p>Random Element:</p></h2>
+        <h2><p class="quote-container">Random Element:</p></h2>
         <h1><span id="computer-choice"></span></h1>
+        <br>
 
         <!-- ELEMENTS -->
-        <input type="radio" id="water" name="choice" value="water">
+        <input type="radio" id="water" name="choice" value="water" class="choice">
         <label for="water">Water &#x1F4A7</label>
         <br>
-        <input type="radio" id="fire" name="choice" value="fire">
+        <input type="radio" id="fire" name="choice" value="fire" class="choice">
         <label for="fire">Fire &#128293</label>
         <br>
-        <input type="radio" id="air" name="choice" value="air">
+        <input type="radio" id="air" name="choice" value="air" class="choice">
         <label for="air">Air &#x1F32C;&#xFE0F</label>
         <br>
-        <input type="radio" id="earth" name="choice" value="earth">
+        <input type="radio" id="earth" name="choice" value="earth" class="choice">
         <label for="earth">Earth &#127757</label>
         <br>
 
         <!-- BUTTON -->
     
+            <br>
             <button id="manifest" disabled>Manifest!</button>
+            <br>
         
 
         <!-- MATCH RESULT -->
-        <h2><span id="result">Stars alignment Match: </span></h2>
+        <h2><span id="result" class="align-center" style="font-size:10vw;">Stars alignment Match: </span></h2>
         <br>
         <br>
         <br>
