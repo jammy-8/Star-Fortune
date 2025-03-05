@@ -16,20 +16,33 @@
     </head>
 
     <body>
-        <div class="container">
-            <h1 class="header">Star Fortune</h1>
-            <br>
-            <div class="quote" style:position="relative" width="80%">
-                <img id="crystal-ball" src="assets/images/Crystal ball final.jpg" alt="Crystal ball" style="width: 100%; height: auto;">
-            </div>
-            <br>
-            <div class="quote-container">
-            "The universe is a grand, wondrous place, filled with mysteries, secrets, and wonder. But most importantly, it is a place where we can learn and grow."
-                <br>
-                - Dr. Seuss
+        <h1>Find out which element matches your energy!</h1>
+        <h2>Stars alignment: <span id="computer-choice"></span></h2>
+        <h2>Your Element: <span id="user-choice"></span></h2>
+        <h2>Your destiny: <span id="result"></span></h2>
+
+        <!-- ELEMENTS -->
+        <input type="radio" id="fire" name="choice" value="fire">
+        <label for="fire">Fire</label><br>
+        <input type="radio" id="water" name="choice" value="water">
+        <label for="water">Water</label><br>
+        <input type="radio" id="air" name="choice" value="air">
+        <label for="air">Air</label>
+
+        <!-- BUTTON -->
+         <div>
+        <button id="manifest" class="btn-container" style: position="relative" onclick="generateFortune()>Manifest</button>
+        </div>
+
+        <!-- QUOTES -->
+
+        <div class="quote-container">
+        "The universe is a grand, wondrous place, filled with mysteries, secrets, and wonder. But most importantly, it is a place where we can learn and grow."
+        <br>
+        - Dr. Seuss
             
-            </div>
-            </div>
+        </div>
+        </div>
 
             <div class="star-box">
                 <div class="star"></div>
@@ -37,14 +50,11 @@
                 <div class="star"></div>
             </div>
 
-            <div class="btn-container" style: position="relative">
-                <button class="btn" onclick="generateFortune()">Stars Align!</button>
-            </div> 
-            <div id="fortune-result" class="fortune-result"></div>
-
+            <!-- FOOTER-->
             <div class="footer">
                 &copy; 2025 Star Fortune. All rights reserved.
             </div>
+
         </div>
 
         <script src="assets/js/script.js"></script>
