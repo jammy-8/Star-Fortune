@@ -16,8 +16,16 @@ playButton.addEventListener('click', (e) => {
     const buttonsArray = Array.from(choices)
     const selected = buttonsArray.filter((b) => b.checked)
     addTextToSpan(yourChoice, selected[0].id)
+    const randChoice = generateComputerChoice()
 })
 
 function addTextToSpan(spanControl, text) {
     spanControl.textContent = text
+}
+
+function generateComputerChoice() {
+    const randomNumber = Math.floor(Math.random() * possibleChoices.length)
+    const computerChoice = possibleChoices[randomNumber]
+    addTextToSpan(compChoice, possibleChoices[randomNumber])
+    return computerChoice
 }
