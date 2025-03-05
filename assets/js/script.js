@@ -11,3 +11,13 @@ choices.forEach((c) => {
         playButton.disabled = false
     })
 })
+
+playButton.addEventListener('click', (e) => {
+    const buttonsArray = Array.from(choices)
+    const selected = buttonsArray.filter((b) => b.checked)
+    addTextToSpan(yourChoice, selected[0].id)
+})
+
+function addTextToSpan(spanControl, text) {
+    spanControl.textContent = text
+}
